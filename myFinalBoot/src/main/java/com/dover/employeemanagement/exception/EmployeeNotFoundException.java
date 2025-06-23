@@ -1,4 +1,4 @@
-package com.example.employeemanagement.exception;
+package com.dover.employeemanagement.exception;
 
 public class EmployeeNotFoundException extends RuntimeException {
     public EmployeeNotFoundException(String message) {

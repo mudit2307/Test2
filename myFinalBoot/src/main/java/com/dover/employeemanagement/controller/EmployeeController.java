@@ -1,7 +1,7 @@
-package com.example.employeemanagement.controller;
+package com.dover.employeemanagement.controller;
 
-import com.example.employeemanagement.entity.Employee;
-import com.example.employeemanagement.service.EmployeeService;
+import com.dover.employeemanagement.entity.Employee;
+import com.dover.employeemanagement.service.EmployeeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

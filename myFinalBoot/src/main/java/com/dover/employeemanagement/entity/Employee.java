@@ -1,4 +1,4 @@
-package com.example.employeemanagement.entity;
+package com.dover.employeemanagement.entity;
 
 import java.util.Objects;
 

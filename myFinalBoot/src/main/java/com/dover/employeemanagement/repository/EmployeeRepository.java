@@ -1,6 +1,6 @@
-package com.example.employeemanagement.repository;
+package com.dover.employeemanagement.repository;
 
-import com.example.employeemanagement.entity.Employee;
+import com.dover.employeemanagement.entity.Employee;
 import org.springframework.data.repository.CrudRepository;
 import java.util.List;
 

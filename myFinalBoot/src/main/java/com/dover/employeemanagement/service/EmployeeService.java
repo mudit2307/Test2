@@ -1,8 +1,8 @@
-package com.example.employeemanagement.service;
+package com.dover.employeemanagement.service;
 
-import com.example.employeemanagement.entity.Employee;
-import com.example.employeemanagement.exception.EmployeeNotFoundException;
-import com.example.employeemanagement.repository.EmployeeRepository;
+import com.dover.employeemanagement.entity.Employee;
+import com.dover.employeemanagement.exception.EmployeeNotFoundException;
+import com.dover.employeemanagement.repository.EmployeeRepository;
 import org.springframework.stereotype.Service;
 
 @Service
