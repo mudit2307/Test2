@@ -9,19 +9,19 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/employees")
 public class EmployeeController {
-
+	
     private final EmployeeService service;
 
     public EmployeeController(EmployeeService service) {
         this.service = service;
     }
 
-    @PostMapping
+    @PostMapping("/employees/create")
     public ResponseEntity<Employee> createEmployee(@RequestBody Employee employee) {
         return new ResponseEntity<>(service.addEmployee(employee), HttpStatus.CREATED);
     }
 
-    @GetMapping
+    @GetMapping("/employees/getemployees")
     public ResponseEntity<Iterable<Employee>> getAllEmployees() {
         return ResponseEntity.ok(service.getAllEmployees());
     }
